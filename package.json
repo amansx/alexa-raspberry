@@ -1,0 +1,23 @@
+{
+  "name": "alexarasp",
+  "version": "0.1.0",
+  "description": "Emulates devices on Raspberry Pi and accepts commands",
+  "main": "index.js",
+  "dependencies": {
+    "wemore": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amansx/alexa-raspberry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amansx/alexa-raspberry/issues"
+  },
+  "homepage": "https://github.com/amansx/alexa-raspberry#readme"
+}
