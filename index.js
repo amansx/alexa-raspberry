@@ -3,8 +3,8 @@ var wemore = require('wemore');
 var exec = require('child_process').exec;
 
 var devices = {
-	'IRC': { oncommand: '/usr/bin/say IRC turned on' },
-	'lynx': { oncommand: '/usr/bin/say LYNX turned on' }
+	'lynx': { oncommand: '/bin/chvt 2' },
+	'IRC': { oncommand: '/bin/chvt 3' },
 };
 
 var deviceRefs = [], i = 0;
