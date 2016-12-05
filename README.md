@@ -1,2 +1,2 @@
 # alexa-raspberry
-Emulates Devices on Raspberry Pi and Accepts commands
+Emulates devices on Raspberry Pi and accepts commands
