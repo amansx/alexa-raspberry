@@ -7,7 +7,7 @@ var devices = {
 	'IRC': 		{ oncommand: '/bin/chvt 3' },
 	'Display': 	{ 
 		oncommand: '/opt/vc/bin/tvservice -p',
-		offcommand: '/opt/vc/bin/tvservice -t',
+		offcommand: '/opt/vc/bin/tvservice -o',
 	},
 };
 
