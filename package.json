@@ -1,6 +1,6 @@
 {
   "name": "alexa-raspberry",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Emulates devices on Raspberry Pi and accepts commands",
   "main": "app.js",
   "dependencies": {
