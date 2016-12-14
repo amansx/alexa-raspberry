@@ -1,5 +1,5 @@
 # Wemo Emulation Server
-Emulates multiple devices on RaspberryPi (or anything running Node.Js) as Wemo Switches and executes commands described in the configuration
+Emulates multiple devices using the ["Wemore"](https://github.com/dhleong/wemore) Library on RaspberryPi (or anything running Node.Js) as Wemo Switches and executes commands described in the configuration.
 
 ```
 // Example Configuration
