@@ -1,0 +1,19 @@
+{
+	"Terminal A":{ 
+		"oncommand": "/bin/chvt 1" 
+	},
+
+	"Terminal B": { 
+		"oncommand": "/bin/chvt 2"
+	},
+
+	"Terminal C": { 
+		"oncommand": "/bin/chvt 3"
+	},
+
+	"Display": { 
+		"oncommand"  : "/opt/vc/bin/tvservice -p",
+		"offcommand" : "/opt/vc/bin/tvservice -o"
+	}
+
+}

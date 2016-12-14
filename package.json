@@ -2,7 +2,7 @@
   "name": "alexarasp",
   "version": "0.1.0",
   "description": "Emulates devices on Raspberry Pi and accepts commands",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "wemore": "^0.3.0"
   },
