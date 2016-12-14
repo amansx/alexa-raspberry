@@ -40,5 +40,40 @@ alexa-raspberry /etc/wemo/devices.json
 Use the alexa app on your cell phone/tablet to search for devices
 
 ```
+Alexa search for devices
 Alexa turn on 'Display'
 ```
+
+##Start as a service on RaspberryPi
+Use your favorite text editor to create the systemd config file and devices.json file
+
+```
+#/etc/systemd/system/alexaraspberry.service
+
+[Unit]
+Description=Wemo emulation server for Alexa
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/alexa-raspberry /etc/alexa/devices.json
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=Alexa-Raspberry
+
+[Install]
+WantedBy=multi-user.target
+
+```
+Enable the service
+
+```
+systemctl enable alexaraspberry.service
+```
+Start the service
+
+```
+systemctl start alexaraspberry.service
+```
+
