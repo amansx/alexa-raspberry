@@ -1,5 +1,5 @@
 {
-  "name": "alexarasp",
+  "name": "alexa-raspberry",
   "version": "0.1.0",
   "description": "Emulates devices on Raspberry Pi and accepts commands",
   "main": "app.js",
@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/amansx/alexa-raspberry.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Amanpreet Singh",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/amansx/alexa-raspberry/issues"
   },
