@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
 * @Author: Amanpreet Singh
 * @Email : Amanpreet.dev@gmail.com
