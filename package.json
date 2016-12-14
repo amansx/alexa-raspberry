@@ -16,6 +16,9 @@
   },
   "author": "Amanpreet Singh",
   "license": "MIT",
+  "bin": {
+	"alexa-raspberry": "app.js"
+  },
   "bugs": {
     "url": "https://github.com/amansx/alexa-raspberry/issues"
   },
