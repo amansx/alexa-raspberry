@@ -19,20 +19,20 @@ Emulates multiple devices using the ["Wemore"](https://github.com/dhleong/wemore
 ##Installation
 ```
 // Install Globally
-sudo npm install node-raspberry -g
+sudo npm install alexa-raspberry -g
 ```
 
 ##Execution
 ```
 // Place devices.json in the execution path
-node app
+alexa-raspberry
 ```
 or
 
 ```
 // Provide file path as
-node app ./examples/devices.json
-node app /etc/wemo/devices.json
+alexa-raspberry ./examples/devices.json
+alexa-raspberry /etc/wemo/devices.json
 ```
 
 
