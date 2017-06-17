@@ -16,13 +16,13 @@ Emulates multiple devices using the ["Wemore"](https://github.com/dhleong/wemore
 }
 ```
 
-##Installation
+## Installation
 ```bash
 # Install Globally
 sudo npm install alexa-raspberry -g
 ```
 
-##Execution
+## Execution
 ```bash
 # Place devices.json in the execution path
 alexa-raspberry
@@ -36,7 +36,7 @@ alexa-raspberry /etc/wemo/devices.json
 ```
 
 
-##Usage
+## Usage
 Use the alexa app on your cell phone/tablet to search for devices
 
 ```
@@ -44,7 +44,7 @@ Alexa search for devices
 Alexa turn on 'Display'
 ```
 
-##Start as a service on RaspberryPi
+## Start as a service on RaspberryPi
 Use your favorite text editor to create the systemd config file and devices.json file
 
 ```bash
