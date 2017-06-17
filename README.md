@@ -1,7 +1,7 @@
 # Wemo Emulation Server
 Emulates multiple devices using the ["Wemore"](https://github.com/dhleong/wemore) Library on RaspberryPi (or anything running Node.Js) as Wemo Switches and executes commands described in the configuration.
 
-```
+```javascript
 // Example Configuration
 {
 	"Terminal A":{ 
@@ -17,20 +17,20 @@ Emulates multiple devices using the ["Wemore"](https://github.com/dhleong/wemore
 ```
 
 ##Installation
-```
-// Install Globally
+```bash
+# Install Globally
 sudo npm install alexa-raspberry -g
 ```
 
 ##Execution
-```
-// Place devices.json in the execution path
+```bash
+# Place devices.json in the execution path
 alexa-raspberry
 ```
 or
 
-```
-// Provide file path as
+```bash
+# Provide file path as
 alexa-raspberry ./examples/devices.json
 alexa-raspberry /etc/wemo/devices.json
 ```
@@ -47,8 +47,8 @@ Alexa turn on 'Display'
 ##Start as a service on RaspberryPi
 Use your favorite text editor to create the systemd config file and devices.json file
 
-```
-#/etc/systemd/system/alexaraspberry.service
+```bash
+#@file: /etc/systemd/system/alexaraspberry.service
 
 [Unit]
 Description=Wemo emulation server for Alexa
@@ -66,14 +66,11 @@ SyslogIdentifier=Alexa-Raspberry
 WantedBy=multi-user.target
 
 ```
-Enable the service
 
-```
+```bash
+#Enable the service
 systemctl enable alexaraspberry.service
-```
-Start the service
-
-```
+#Start the service
 systemctl start alexaraspberry.service
 ```
 
